@@ -1,4 +1,5 @@
 export default {
+    MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
       REGION: "ap-southeast-1",
       BUCKET: "curso-serverless-notes"
@@ -12,5 +13,6 @@ export default {
       USER_POOL_ID: "ap-southeast-1_rXLILRYgF",
       APP_CLIENT_ID: "58k5no2908shihe5o44d9tnsp8",
       IDENTITY_POOL_ID: "ap-southeast-1:c8a6e0e1-4cdd-42de-b89e-7b6548c42be4"
-    }
+    },
+    STRIPE_KEY: "pk_test_UUsmaUJHKB08LzwWTzsmfTYZ00cmC4DaHz",
   };
